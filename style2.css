@@ -1,0 +1,111 @@
+.header {
+	height: 950px;
+	background-size: cover;
+}
+.header a {
+	font-size: 20pt;
+	color: #fff;
+	margin: 60px 0 0 60px;
+	display: block;
+	font-family: 'Bad Script', cursive;
+}
+.header a:hover {
+	text-decoration: none;
+}
+.header h1 {
+	font-size: 32pt;
+	color: #fff;
+	text-align: center;
+	margin-top: 250px;
+	text-transform: lowercase;
+	font-family: 'Julius Sans One', sans-serif;
+}
+@media screen and (max-width:760px) {
+	.header {
+		height:	300px;
+	}
+	.header a {
+		display: none;
+	}
+}
+
+.main-menu {
+	width: 100%;
+	background-color: #180719;
+	font-size: 16pt;
+	text-align: center;
+}
+.main-menu li {
+	height: 100px;
+	display: inline-block;
+	transition: 0.55s;
+}
+.main-menu li a {
+	line-height: 100px;
+	color: #fff;
+	display: block;
+	padding: 0 75px;
+	font-family: 'Julius Sans One', sans-serif;
+	
+}
+.main-menu li a:hover {
+	text-decoration: none;
+}
+.main-menu li:hover {
+	background-color: #3E1242;
+}
+.main-menu li:hover a {
+	color: #fff;
+}
+
+.lore-text {
+	height: 2300px;
+	margin-top: 100px;
+	margin-left: 250px;
+	margin-right: 250px;
+}
+.lore-text p {
+	font-size: 23pt;
+	font-family: 'Bad Script', cursive;
+	color: #fff;
+}
+
+.toggle-menu {
+	display: none;
+	line-height: 100px;
+	background-color: #F1C40F;
+	text-align: right;
+	padding-right: 50px;
+}
+.hamburger {
+	line-height: 100px;
+	background-color: #F1C40F;
+	font-size: 32pt;
+	text-align: right;
+	padding-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+@media screen and (max-width:760px){
+	.main-menu {
+		padding: 0;
+		display: none;
+	}
+	.main-menu {
+		padding: 0;
+		text-align: center;
+	}
+	.hamburger {
+		display: block;
+	}
+}
+@media screen and (min-width:761px) {
+	.main-menu {
+		display: block!important;
+	}
+}
+
+
+body  {
+	background: url('img/debut_dark.png.png');
+}
